@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Snowy';
+	src:url("CSS/Fonts/Snowy/CFSnowBall-Regular.ttf") format("truetype");
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	line-height: 0.9;
+	background-image: linear-gradient(to bottom, deepskyblue, lightblue);
+	font-family: Arial, sans-serif;
+}
+/*region: navigation bar*/
+nav {
+	overflow: auto;
+	background-color: #202020;
+	top: 0;
+	width: 100%;
+	display: block;
+	position: fixed;
+}
+nav a {
+	padding: 18px 18px;
+	text-decoration: none;
+	color: white;
+	font-size: 125%;
+	float: left;
+}
+a:hover {
+	background-color: #555;
+}
+/*endregion*/
+
+/*region: headlines*/
+.huge-headline {
+		font-size: 400%;
+		text-align: center;
+		font-family: "Snowy";
+		padding-top: 72px;
+		padding-bottom: 40px;
+}
+.headline {
+	text-align: center;
+	font-size: 300%;
+	font-family: "Snowy";
+	padding-top: 40px;
+}
+.sub-headline {
+	line-height: 0.5;
+	font-size: 130%;
+	margin-left: 1%;
+	text-align: center;
+	padding-bottom: 35px;
+}
+/*endregion*/
+img {
+	width: 500px;
+}
+section > a {
+	font-size: 175%;
+}
+img, ul li, p, h2, h3, h4 {
+	margin-left: 1%;
+}
+a.current-page {
+	background-color: deepskyblue;
+	color: black;
+	font-weight: bold;
+}
+q {
+  padding-left: 70px;
+  font-style: italic;
+}
+blockquote {
+  padding-left: 30px;
+  font-style: italic;
+  line-height: 1.2;
+}
+ul, p, dt, ol {
+	line-height: 2;
+}
+dd {
+	line-height: 1.5;
+}
+#linear-gradient-problem-solver {
+ padding-bottom: 105px;
+}
+.list-without-decoration {
+	list-style-type: none;
+	padding-left: 4px;
+}
