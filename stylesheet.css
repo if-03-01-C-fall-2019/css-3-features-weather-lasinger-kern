@@ -83,18 +83,23 @@ ul, p, dt, ol {
 dd {
 	line-height: 1.5;
 }
-#linear-gradient-problem-solver {
- padding-bottom: 105px;
-}
 .list-without-decoration {
 	list-style-type: none;
 	padding-left: 4px;
 }
 #changelog {
 	float: right;
-	padding-bottom: 87px;
 	padding-right: 1%;
+	padding-bottom: 1%;
 	text-decoration: none;
 	color: black;
 	font-size: 125%;
 }
+/*region: linear-gradient-problem-solvers*/
+#linear-gradient-problem-solver {
+ padding-bottom: 80px;
+}
+#linear-gradient-problem-solver-v2{
+	padding-bottom: 372px;
+}
+/*endregion*/
