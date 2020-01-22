@@ -53,6 +53,18 @@ a:hover {
 	padding-bottom: 35px;
 }
 /*endregion*/
+/*region animations*/
+.spinning-image {
+	-o-animation:spin 4s linear infinite;
+	-webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+@-o-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+/*endregion*/
 img {
 	width: 500px;
 	border-radius: 25px;
