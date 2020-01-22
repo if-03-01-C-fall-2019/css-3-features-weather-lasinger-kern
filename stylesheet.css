@@ -37,6 +37,7 @@ a:hover {
 		font-family: "Snowy";
 		padding-top: 72px;
 		padding-bottom: 40px;
+		text-shadow: 2px 2px;
 }
 .headline {
 	text-align: center;
@@ -54,6 +55,7 @@ a:hover {
 /*endregion*/
 img {
 	width: 500px;
+	border-radius: 25px;
 }
 section > a {
 	font-size: 175%;
@@ -87,4 +89,8 @@ dd {
 .list-without-decoration {
 	list-style-type: none;
 	padding-left: 4px;
+}
+#changelog {
+	text-align: right;
+	/*padding-bottom: 70px;*/
 }
