@@ -91,6 +91,10 @@ dd {
 	padding-left: 4px;
 }
 #changelog {
-	text-align: right;
-	/*padding-bottom: 70px;*/
+	float: right;
+	padding-bottom: 87px;
+	padding-right: 1%;
+	text-decoration: none;
+	color: black;
+	font-size: 125%;
 }
